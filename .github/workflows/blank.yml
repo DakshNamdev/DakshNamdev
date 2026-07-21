@@ -18,4 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
         with:
-          username: ${{ github.repository_owner }}
+          USERNAME: ${{ github.repository_owner }}
+          THEME: "holi"
+          ANIMATION: "sequence"
